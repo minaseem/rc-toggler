@@ -1,0 +1,22 @@
+{
+  "name": "rc-toggler",
+  "version": "1.0.0",
+  "description": "This is a react toggler. It can be used to build dropdowns, popover, tooltips",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/minaseem/rc-toggler.git"
+  },
+  "keywords": [
+    "rc-toggler"
+  ],
+  "author": "naseem1992@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minaseem/rc-toggler/issues"
+  },
+  "homepage": "https://github.com/minaseem/rc-toggler#readme"
+}
