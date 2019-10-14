@@ -1,6 +1,6 @@
 # toggler-react
 
-This is a react toggler. It can be used to build dropdowns, popover, tooltips.
+This is a react toggler. It can be used to build dropdowns, popovers, tooltips.
 
 ## Installation
 
@@ -40,9 +40,8 @@ function Popover () {
 ```
 
 
-### toggler-react Properties
+### Props
 
-#### Basic
 | Property | Type | Required | Description |
 |--------------------------|---------------------|----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | overrideClass | String | no | This is added as a class to the root of Popover |
