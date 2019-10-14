@@ -1,6 +1,6 @@
 {
   "name": "toggler-react",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "This is a react toggler. It can be used to build dropdowns, popover, tooltips",
   "files": [
     "build",
