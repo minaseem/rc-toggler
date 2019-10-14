@@ -13,9 +13,9 @@ yarn add toggler-react
 ```js
 import {Toggler} from 'toggler-react';
 <Toggler 
-    overrideClass={"disable" or ""} 
+    overrideClass={"disable"} 
     onToggle={(a:boolean) => void}
-    popoverVisible={true/false}>
+    popoverVisible={true}>
 </Toggler>
 ```
 
