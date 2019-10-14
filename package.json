@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "description": "This is a react toggler. It can be used to build dropdowns, popover, tooltips",
   "main": "build/toggler.js",
+  "types": "lib/main.d.ts",
   "scripts": {
     "start": "webpack --watch",
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1",
     "tsc": "tsc"
   },
-  "files": ["build", "src"],
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/minaseem/toggler-react.git"

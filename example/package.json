@@ -6,7 +6,8 @@
     "babel-loader": "^8.0.6",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
-    "react-scripts": "3.2.0"
+    "react-scripts": "3.2.0",
+    "toggler-react": "^1.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
