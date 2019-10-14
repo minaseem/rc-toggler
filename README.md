@@ -14,22 +14,29 @@ yarn add toggler-react
 
 ## Usage
 ```jsx harmony
-import Toggler from 'toggler-react';
-<Toggler 
-    overrideClass={"disable"} 
-    onToggle={(a:boolean) => void}
-    popoverVisible={true}>
-    <Toggler.Field>
-      <div>
-        <p>Click me to open Popover</p>
-      </div>      
-    </Toggler.Field>
-    <Toggler.Popover>
-        <div>
-            <p>Hi,This is a Popover</p>
-        </div>
-    </Toggler.Popover>
-</Toggler>
+import React, { useState } from 'react';
+
+function Popover () {
+
+    const [isVisible, setVisiblity] = useState(false);
+    return (
+        <Toggler
+            overrideClass={"disable"}
+            onToggle={setVisiblity}
+            popoverVisible={isVisible}>
+          <Toggler.Field>
+            <div>
+              <p>Click me to open Popover</p>
+            </div>
+          </Toggler.Field>
+          <Toggler.Popover>
+            <div>
+              <p>Hi,This is a Popover</p>
+            </div>
+          </Toggler.Popover>
+        </Toggler>
+    );
+  }
 ```
 
 
