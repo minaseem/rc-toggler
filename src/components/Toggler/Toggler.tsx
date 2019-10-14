@@ -1,5 +1,4 @@
 /* created by imamudin on 06/12/18 */
-
 import React, { Component, ReactNode } from "react";
 import "./Toggler.less";
 import clickEvent from "./../../helpers/clickEvent";
