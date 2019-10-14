@@ -1,4 +1,4 @@
-import  T from './components/Toggler/Toggler';
+import  Toggler from './components/Toggler/Toggler';
 
-export const Toggler = T;
+export default Toggler;
 

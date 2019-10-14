@@ -4,6 +4,7 @@ import "./Toggler.less";
 import clickEvent from "./../../helpers/clickEvent";
 import hasParentChildRelationship from "./../../utils/hasParentChildRelationship";
 import { IObject } from "../../types/types";
+import {Toggler} from 'toggler-react';
 
 interface IProps {
   popoverVisible: boolean;
@@ -30,7 +31,7 @@ function Popover() {
   return null;
 }
 
-export default class Toggler extends Component<IProps, IState> {
+export default class Toggle extends Component<IProps, IState> {
   static Field: React.FC = Field;
   static Popover: React.FC = Popover;
   private field: React.RefObject<HTMLDivElement>;
@@ -94,16 +95,19 @@ export default class Toggler extends Component<IProps, IState> {
     const { showPopover } = this.state;
     const field = (children as JSX.Element[]).find(
       (child: JSX.Element) =>
-        child.type === Toggler.Field ||
-        child.type.displayName === Toggler.Field.name
+        child.type === Toggle.Field ||
+        child.type.displayName === Toggle.Field.name
     );
     const popover = (children as JSX.Element[]).find(
       (child: JSX.Element) =>
-        child.type === Toggler.Popover ||
-        child.type.displayName === Toggler.Popover.name
+        child.type === Toggle.Popover ||
+        child.type.displayName === Toggle.Popover.name
     );
     return (
       <div className={`toggler ${overrideClass}`}>
+        <Toggler onToggle={() => {}} popoverVisible={true}>
+          hello
+        </Toggler>
         {field && (
           <div className="field" onClick={this.onFieldClick} ref={this.field}>
             {field.props.children}
@@ -120,6 +124,6 @@ export default class Toggler extends Component<IProps, IState> {
 }
 
 
-Toggler.defaultProps = {
+Toggle.defaultProps = {
   overrideClass: ""
 };
