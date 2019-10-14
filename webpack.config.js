@@ -5,7 +5,7 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, 'build'),
         filename: 'toggler.js',
-        libraryTarget: 'commonjs'
+        libraryTarget: 'commonjs2'
     },
     module: {
         rules: [
