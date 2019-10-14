@@ -17,8 +17,8 @@ yarn add toggler-react
 import React, { useState } from 'react';
 
 function Popover () {
-
     const [isVisible, setVisiblity] = useState(false);
+    
     return (
         <Toggler
             overrideClass={"disable"}
