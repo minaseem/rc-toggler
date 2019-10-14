@@ -38,6 +38,6 @@ import Toggler from 'toggler-react';
 #### Basic
 | Property | Type | Required | Description |
 |--------------------------|---------------------|----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| overrideClass | string | no | This is added as a class to the root of Popover |
+| overrideClass | String | no | This is added as a class to the root of Popover |
 | popoverVisible | Boolean | yes | This tells the toggler to show or hide the popover|
 | onToggle | Function | yes | This is a function which takes a Boolean parameter and helps in setting the state of **popoverVisible** to either true or false|
