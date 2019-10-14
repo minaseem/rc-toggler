@@ -4,7 +4,6 @@ import "./Toggler.less";
 import clickEvent from "./../../helpers/clickEvent";
 import hasParentChildRelationship from "./../../utils/hasParentChildRelationship";
 import { IObject } from "../../types/types";
-import {Toggler} from 'toggler-react';
 
 interface IProps {
   popoverVisible: boolean;
@@ -105,9 +104,6 @@ export default class Toggle extends Component<IProps, IState> {
     );
     return (
       <div className={`toggler ${overrideClass}`}>
-        <Toggler onToggle={() => {}} popoverVisible={true}>
-          hello
-        </Toggler>
         {field && (
           <div className="field" onClick={this.onFieldClick} ref={this.field}>
             {field.props.children}
