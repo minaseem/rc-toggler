@@ -2,7 +2,7 @@
 
 This is a react toggler. It can be used to build dropdowns, popover, tooltips.
 
-## installation
+## Installation
 
 ```
 npm install toggler-react
@@ -12,9 +12,9 @@ or
 yarn add toggler-react
 ```
 
-## usage
+## Usage
 ```js
-import {Toggler} from 'toggler-react';
+import Toggler from 'toggler-react';
 <Toggler 
     overrideClass={"disable"} 
     onToggle={(a:boolean) => void}
