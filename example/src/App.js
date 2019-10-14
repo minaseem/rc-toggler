@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import logo from './logo.svg';
-import {Toggler} from 'aaa/toggler'
+import {Toggler} from 'toggler-react'
 import './App.css';
 
 function App() {
