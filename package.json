@@ -15,7 +15,12 @@
     "url": "git+ssh://git@github.com/minaseem/toggler-react.git"
   },
   "keywords": [
-    "toggler-react"
+    "toggler-react",
+    "react-toggler",
+    "dropdown",
+    "popover",
+    "react-dropdown",
+    "tooltip"
   ],
   "author": "imamudin Naseem <naseem1992@gmail.com> (https://imamudinnaseem.com)",
   "license": "ISC",
