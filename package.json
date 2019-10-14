@@ -2,6 +2,7 @@
   "name": "toggler-react",
   "version": "1.0.1",
   "description": "This is a react toggler. It can be used to build dropdowns, popover, tooltips",
+  "files": ["build", "src", "lib"],
   "main": "build/toggler.js",
   "types": "lib/main.d.ts",
   "scripts": {
