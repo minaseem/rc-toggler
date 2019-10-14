@@ -1,1 +1,1 @@
-# rc-toggler
+# toggler-react
