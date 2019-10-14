@@ -1,9 +1,8 @@
 /* created by imamudin on 06/12/18 */
 
 import React, { Component, ReactNode } from "react";
-import * as s from "./Toggler.less";
-import pubSub from "./../../helpers/pubSub/pubSub";
-import topics from "./../../helpers/pubSub/topics";
+import "./Toggler.less";
+import clickEvent from "./../../helpers/clickEvent";
 import hasParentChildRelationship from "./../../utils/hasParentChildRelationship";
 import { IObject } from "../../types/types";
 
@@ -59,8 +58,7 @@ export default class Toggler extends Component<IProps, IState> {
   }
 
   componentDidMount() {
-    this.windowClickSubscription = pubSub.subscribe(
-      topics.WINDOW_CLICK,
+    this.windowClickSubscription = clickEvent.subscribe(
       this.onWindowClick
     );
   }
@@ -106,14 +104,14 @@ export default class Toggler extends Component<IProps, IState> {
         child.type.displayName === Toggler.Popover.name
     );
     return (
-      <div className={`${s.toggler} ${overrideClass} toggler`}>
+      <div className={`toggler ${overrideClass}`}>
         {field && (
           <div className="field" onClick={this.onFieldClick} ref={this.field}>
             {field.props.children}
           </div>
         )}
         {showPopover && popover && (
-          <div className={`${s.popover} popover`} onClick={event => event.stopPropagation()}>
+          <div className={'popover'} onClick={event => event.stopPropagation()}>
             {popover.props.children}
           </div>
         )}

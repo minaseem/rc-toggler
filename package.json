@@ -2,13 +2,14 @@
   "name": "toggler-react",
   "version": "1.0.0",
   "description": "This is a react toggler. It can be used to build dropdowns, popover, tooltips",
-  "main": "build/index.js",
+  "main": "build/toggler.js",
   "scripts": {
     "start": "webpack --watch",
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1",
     "tsc": "tsc"
   },
+  "files": ["build", "src"],
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/minaseem/toggler-react.git"
@@ -21,14 +22,11 @@
   "bugs": {
     "url": "https://github.com/minaseem/toggler-react/issues"
   },
-  "dependencies": {
-    "@types/react": "^16.9.5",
-    "babel-cli": "^6.26.0",
-    "react": "^16.10.2",
-    "webpack": "^4.41.0"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "@types/react": "^16.9.5",
     "awesome-typescript-loader": "^5.2.1",
+    "babel-cli": "^6.26.0",
     "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",
     "babel-plugin-react-css-modules": "^5.2.6",
@@ -38,6 +36,7 @@
     "css-loader": "^3.2.0",
     "less": "^3.10.3",
     "less-loader": "^5.0.0",
+    "react": "^16.10.2",
     "style-loader": "^1.0.0",
     "ts-loader": "^6.2.0",
     "typescript": "^3.6.4",

@@ -18,11 +18,7 @@ module.exports = {
                         loader: 'style-loader'
                     },
                     {
-                        loader: 'css-loader',
-                        options: {
-                            importLoaders: 1,
-                            modules: true
-                        }
+                        loader: 'css-loader'
                     },
                     {
                         loader: 'less-loader'
