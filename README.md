@@ -13,7 +13,7 @@ yarn add toggler-react
 ```
 
 ## Usage
-```js
+```jsx harmony
 import Toggler from 'toggler-react';
 <Toggler 
     overrideClass={"disable"} 
