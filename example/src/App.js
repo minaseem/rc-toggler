@@ -1,5 +1,4 @@
 import React, { Component, useState } from 'react';
-import logo from './logo.svg';
 import Toggler from 'toggler-react'
 import './App.css';
 
