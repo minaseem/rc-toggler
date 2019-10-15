@@ -7,8 +7,6 @@ notifications:
   email: false
 node_js:
   - 'stable'
-brefore_script:
- - npm prune
 script:
 - yarn install
 - yarn build
