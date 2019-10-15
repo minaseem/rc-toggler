@@ -10,6 +10,7 @@ node_js:
 brefore_script:
  - npm prune
 script:
- - npm run test
+- yarn install
+- yarn build
 after_success:
  - npm run semantic-release
