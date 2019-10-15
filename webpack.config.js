@@ -9,22 +9,7 @@ module.exports = {
     },
     module: {
         rules: [
-            { test: /\.tsx?$/, loader: 'awesome-typescript-loader' },
-            {
-                test: /\.less$/,
-                include: path.resolve(__dirname, 'src'),
-                use: [
-                    {
-                        loader: 'style-loader'
-                    },
-                    {
-                        loader: 'css-loader'
-                    },
-                    {
-                        loader: 'less-loader'
-                    }
-                ],
-            }
+            { test: /\.tsx?$/, loader: 'awesome-typescript-loader' }
         ]
     },
     resolve: {extensions: ['.js', '.jsx', '.ts', '.tsx', '.less']},
