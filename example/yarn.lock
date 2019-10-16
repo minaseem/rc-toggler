@@ -9619,10 +9619,10 @@ to-regex@^3.0.1, to-regex@^3.0.2:
     regex-not "^1.0.2"
     safe-regex "^1.1.0"
 
-toggler-react@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/toggler-react/-/toggler-react-1.0.0.tgz#9eca91fe7903945facef9ae94ec8c4b0cea584cf"
-  integrity sha512-qcUrUO901S06M23c50vFnmwqRbHJV6Y6g13oc6avzr8K+s3fVHWX85GDqOmbFhkE6rLIsrbKjJlzOF0ItAmbwQ==
+toggler-react@^2.0.6:
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/toggler-react/-/toggler-react-2.0.6.tgz#5f90f538b6d62768775a34ec957dd3c981a4e566"
+  integrity sha512-TXAt6I6ltJ4Rs/fmSbKq9PiqjzqGsBWkNcZ8mZ/3EbK+T0U1jo+/Tk+BbSlssXVse6pVhKBjTu7GenniSW3t2A==
 
 toidentifier@1.0.0:
   version "1.0.0"
