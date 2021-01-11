@@ -23,7 +23,7 @@ const clickHandler = () => {
 
 let pubSub = clickHandler();
 
-if (typeof window !== 'undefined') {
+if (typeof window !== 'undefined' && window.addEventListener) {
     window.addEventListener("click", pubSub.publish)
 }
 
